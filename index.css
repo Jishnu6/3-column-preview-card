@@ -1,0 +1,74 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10%;
+}
+
+.card {
+    width: 75%;
+}
+
+.title {
+    margin: 0% 12%;
+    font-weight: bold;
+}
+
+.logo-wrapper {
+    margin: 10%;
+}
+
+.desc {
+    margin: 10%;
+}
+
+.btn {
+    background-color: white;
+    margin: 5% 12% 10%;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.first-card {
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.btn1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.second-card {
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 0px;
+}
+
+.btn2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.third-card {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.btn3 {
+    color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 426px) {
+    .cards-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
